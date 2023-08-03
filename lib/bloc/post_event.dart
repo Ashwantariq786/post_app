@@ -1,0 +1,10 @@
+import 'package:equatable/equatable.dart';
+
+abstract class PostEvent extends Equatable {
+  @override
+  List<Object?> get props => [];
+}
+
+class FetchPosts extends PostEvent {}
+
+class LoadMorePosts extends PostEvent {}
